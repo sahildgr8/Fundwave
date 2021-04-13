@@ -17,7 +17,7 @@ def LQtoLTM():
                 total = 0
                 date = None
                 count = 0
-            if check == "LM":
+        if check == "LM":
                 total += int(data[i][0])
                 date = data[i][1]
                 print(date)
