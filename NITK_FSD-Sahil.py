@@ -17,6 +17,18 @@ def LQtoLTM():
                 total = 0
                 date = None
                 count = 0
+            if check == "LM":
+                total += int(data[i][0])
+                date = data[i][1]
+                print(date)
+                count +=1
+                if count==12:
+                    print(f"outputPeriodType (input) :\n LTM")
+                    print(f"outputPeriodDate (input):\n date")
+                    print(f"output : \n{total}")
+                    total = 0
+                    date = None
+                    count = 0
 
 check = True
 while(check):
